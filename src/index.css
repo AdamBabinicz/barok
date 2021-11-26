@@ -1,13 +1,57 @@
-body {
+@font-face {
+  font-family: "BaroqueScript";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./Baroque_Script/BaroqueScript.ttf");
+}
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: "Poiret One", cursive;
+}
+
+section,
+footer,
+.lower__footer {
+  margin: 0 5vw;
+}
+
+section:first-of-type {
+  margin: 0;
+}
+
+section {
+  margin: 5rem 0;
+}
+
+::-webkit-scrollbar {
+  background: #fff;
+  width: 0.4vw;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #fc4958, #e85d04, #fc4958);
+}
+
+.show {
+  opacity: 1 !important;
+  visibility: visible !important;
+  right: 0 !important;
+}
+
+p {
+  color: #350b0b;
+  color: #793002;
 }
