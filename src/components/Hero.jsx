@@ -177,6 +177,9 @@ const Section = styled.section`
         em {
           width: 90%;
         }
+        button {
+          margin-top: 4rem;
+        }
       }
     }
   }
