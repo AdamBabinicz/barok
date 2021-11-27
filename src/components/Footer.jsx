@@ -71,7 +71,7 @@ export default function Footer() {
       </Section>
       <LowerFooter className="lower__footer">
         <h2>
-          2021 - <span>{new Date().getFullYear()}.</span>
+          2021 -&nbsp;<span> {new Date().getFullYear()}.</span>
         </h2>
       </LowerFooter>
     </div>
@@ -161,12 +161,12 @@ const LowerFooter = styled.div`
   h2 {
     display: flex;
     justify-content: center;
-}
-    span {
-      color: #fc4958;
-      text-transform: uppercase;
-    }
   }
+  span {
+    color: #fc4958;
+    text-transform: uppercase;
+  }
+
   @media screen and (min-width: 260px) and (max-width: 450px) {
     h2 {
       span {
