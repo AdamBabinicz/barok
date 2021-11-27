@@ -136,7 +136,7 @@ const Section = styled.footer`
     grid-template-columns: 1fr;
     .container {
       .title h3 {
-        margin-bottom: 1rem;
+        margin: 1rem 0;
       }
       ul li {
         margin: 1rem;
