@@ -110,6 +110,7 @@ const Section = styled.section`
         align-items: center;
         text-align: left;
         /* gap: 1rem; */
+        background: violet;
         p {
           font-size: 1.1rem;
           line-height: 2rem;
