@@ -67,9 +67,9 @@ export default function Testimonials() {
 }
 
 const Section = styled.section`
-  margin: 5vw;
+  /* margin: 5vw; */
   background: linear-gradient(to right, #fc4958, #e85d04, #fc4958);
-  padding: 0.2rem;
+  /* padding: 0.2rem; */
   border-radius: 1.5rem;
   position: relative;
 
@@ -78,7 +78,7 @@ const Section = styled.section`
     background: none;
   }
   .container {
-    margin: 0.5rem;
+    /* margin: 0.5rem; */
     padding-top: 1vw;
     padding-bottom: 4vw;
     background: white;
@@ -111,12 +111,12 @@ const Section = styled.section`
         justify-content: center;
         text-align: left;
         /* gap: 1rem; */
+
         p {
           font-size: 1.1rem;
           line-height: 2rem;
           letter-spacing: 0.1rem;
           font-weight: 600;
-          padding: 0 1rem;
           background: #ccc;
           /* max-width: 330px;
           width: 100%; */
