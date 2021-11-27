@@ -335,7 +335,7 @@ const Section = styled.section`
         padding: 0.6rem 3rem;
         letter-spacing: 0.2rem;
         border-radius: 2rem;
-        font-size: 1.1rem;
+        /* font-size: 1.1rem; */
         border: none;
         color: white;
         background: #fc4958;
