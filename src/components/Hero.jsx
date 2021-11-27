@@ -172,6 +172,7 @@ const Section = styled.section`
         h2 {
           font-size: 2rem;
           text-align: center;
+          letter-spacing: normal;
         }
         em {
           width: 90%;

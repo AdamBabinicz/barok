@@ -72,6 +72,11 @@ const Section = styled.section`
   padding: 0.2rem;
   border-radius: 1.5rem;
   position: relative;
+
+  @media only screen and (max-width: 768px) {
+    border: 1px solid #fc4958;
+    background: none;
+  }
   .container {
     margin: 0.5rem;
     padding-top: 1vw;
