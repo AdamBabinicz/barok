@@ -140,7 +140,7 @@ const Section = styled.section`
       }
       button {
         padding: 1rem 2rem;
-        /* font-size: 1rem; */
+        margin-top: 1rem;
       }
     }
   }
