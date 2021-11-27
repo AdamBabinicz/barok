@@ -65,9 +65,7 @@ export default function Footer() {
           <div className="title">
             <h3>Kontakt</h3>
           </div>
-          <p></p>
           <p>puaro@vp.pl</p>
-          <p></p>
           <p>26-611 Radom, Polska</p>
         </div>
       </Section>
@@ -137,9 +135,15 @@ const Section = styled.footer`
   @media screen and (min-width: 260px) and (max-width: 1080px) {
     grid-template-columns: 1fr;
     .container {
+      ul {
+        margin-right: 1rem;
+      }
       img {
         height: 4rem;
         width: 10rem;
+      }
+      p {
+        letter-spacing: normal;
       }
     }
   }
