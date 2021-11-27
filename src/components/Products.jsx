@@ -45,7 +45,7 @@ export default function Products() {
     <Section id="pisarze">
       <div className="title">
         <h2>
-          <span>Przedstawiciele</span> baroku w Polsce
+          <span>Przedstawiciele</span> baroku w&nbsp;Polsce
         </h2>
       </div>
       <div className="products">
