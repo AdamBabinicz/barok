@@ -94,7 +94,7 @@ const Section = styled.section`
   }
   .content {
     position: absolute;
-    top: 25%;
+    top: 20%;
     left: 10%;
     color: white;
     display: flex;
