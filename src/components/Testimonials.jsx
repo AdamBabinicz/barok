@@ -120,7 +120,6 @@ const Section = styled.section`
           line-height: 2rem;
           letter-spacing: 0.1rem;
           font-weight: 600;
-          background: #ccc;
           /* max-width: 330px;
           width: 100%; */
 
