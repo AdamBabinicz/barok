@@ -346,7 +346,7 @@ const Section = styled.section`
         }
 
         @media only screen and (max-width: 768px) {
-          margin-bottom: 1rem;
+          margin: 1rem 0;
         }
       }
     }
