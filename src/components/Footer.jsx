@@ -135,7 +135,7 @@ const Section = styled.footer`
   @media screen and (min-width: 260px) and (max-width: 1080px) {
     grid-template-columns: 1fr;
     .container {
-      ul {
+      ul li {
         margin-right: 1rem;
       }
       img {
