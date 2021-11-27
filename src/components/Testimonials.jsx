@@ -69,7 +69,7 @@ export default function Testimonials() {
 const Section = styled.section`
   /* margin: 5vw; */
   background: linear-gradient(to right, #fc4958, #e85d04, #fc4958);
-  /* padding: 0.2rem; */
+  padding: 0.2rem;
   border-radius: 1.5rem;
   position: relative;
 
