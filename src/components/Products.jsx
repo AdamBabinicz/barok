@@ -129,6 +129,9 @@ const Section = styled.section`
     .products {
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     }
+    .product button {
+      margin-bottom: 2rem;
+    }
   }
   @media screen and (min-width: 720px) and (max-width: 1080px) {
     .products {
