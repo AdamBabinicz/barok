@@ -108,6 +108,7 @@ const Section = styled.section`
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         text-align: left;
         /* gap: 1rem; */
         p {
@@ -118,10 +119,7 @@ const Section = styled.section`
           font-weight: 600;
           max-width: 330px;
           width: 100%;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
+
           span {
             color: #fc4958;
           }
@@ -145,9 +143,9 @@ const Section = styled.section`
         position: initial;
         background-color: transparent;
       }
-      .testimonials {
+      /* .testimonials {
         flex-direction: column;
-      }
+      } */
     }
   }
 `;
