@@ -110,15 +110,18 @@ const Section = styled.section`
         align-items: center;
         text-align: left;
         /* gap: 1rem; */
-        background: violet;
         p {
+          background: violet;
           font-size: 1.1rem;
           line-height: 2rem;
           letter-spacing: 0.1rem;
           font-weight: 600;
-          max-width: 400px;
+          max-width: 330px;
           width: 100%;
-          /* background: red; */
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
           span {
             color: #fc4958;
           }
