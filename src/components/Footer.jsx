@@ -136,7 +136,7 @@ const Section = styled.footer`
     grid-template-columns: 1fr;
     .container {
       ul li {
-        margin-right: 1rem;
+        margin: 1rem;
       }
       img {
         height: 4rem;
