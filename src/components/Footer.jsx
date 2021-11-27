@@ -135,6 +135,9 @@ const Section = styled.footer`
   @media screen and (min-width: 260px) and (max-width: 1080px) {
     grid-template-columns: 1fr;
     .container {
+      .title h3 {
+        margin-bottom: 1rem;
+      }
       ul li {
         margin: 1rem;
       }
