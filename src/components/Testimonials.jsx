@@ -112,13 +112,12 @@ const Section = styled.section`
         text-align: left;
         /* gap: 1rem; */
         p {
-          background: violet;
           font-size: 1.1rem;
           line-height: 2rem;
           letter-spacing: 0.1rem;
           font-weight: 600;
-          max-width: 330px;
-          width: 100%;
+          /* max-width: 330px;
+          width: 100%; */
 
           span {
             color: #fc4958;
@@ -141,7 +140,7 @@ const Section = styled.section`
     .container {
       .title {
         position: initial;
-        background-color: transparent;
+        background: transparent;
       }
       /* .testimonials {
         flex-direction: column;
