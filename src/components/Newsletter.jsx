@@ -45,7 +45,7 @@ const Section = styled.section`
       padding: 1rem 5rem;
       background-color: transparent;
       border: none;
-      font-size: 1.3rem;
+      /* font-size: 1.2rem; */
       color: white;
       text-transform: uppercase;
       letter-spacing: 0.5rem;

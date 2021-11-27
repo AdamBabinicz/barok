@@ -136,7 +136,7 @@ const Section = styled.section`
       }
       button {
         padding: 1rem 2rem;
-        font-size: 1.4rem;
+        /* font-size: 1.2rem; */
         background-color: #fc4958;
         border: none;
         color: white;

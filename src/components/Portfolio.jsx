@@ -113,7 +113,7 @@ const Section = styled.section`
     button {
       border: none;
       padding: 1rem 4rem;
-      font-size: 1.4rem;
+      /* font-size: 1.2rem; */
       color: white;
       border-radius: 4rem;
       transition: 0.5s ease-in-out;
@@ -140,7 +140,7 @@ const Section = styled.section`
       }
       button {
         padding: 1rem 2rem;
-        font-size: 1rem;
+        /* font-size: 1rem; */
       }
     }
   }
