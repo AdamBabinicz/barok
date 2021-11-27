@@ -344,6 +344,10 @@ const Section = styled.section`
         &:hover {
           background-color: #f9c74f;
         }
+
+        @media only screen and (max-width: 768px) {
+          margin-bottom: 2rem;
+        }
       }
     }
     .yellow {
